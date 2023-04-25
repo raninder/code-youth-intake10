@@ -4,7 +4,8 @@
 	2. https://www.freecodecamp.org/news/git-and-github-for-beginners/
 	3. https://gist.github.com/donburks/a5c1aae6de7d1504e631
 - Web Development fundamentals
-
+	1. https://codeyouth.atlassian.net/wiki/spaces/CODEYOUTH/pages/218791966/intro.dev	
+	2. https://www.edureka.co/blog/web-development-tutorial/
 - HTML/CSS/JS
 - Front-end, Back-end
 
@@ -20,5 +21,13 @@ Ex1: https://ilyabirman.net/meanwhile/pictures/three-level-headings@2x.png (http
 						2. Science
 						3. English
 						4. Health
+
+						<ol type="A">
+						<li>One</li>
+						.....
+						</ol>
 	Unordered List :  . Maths
 										. Science					
+
+	Ex2: https://miro.medium.com/v2/resize:fit:1400/1*CQtt0HJ7858Y44OUDoxD5A.jpeg
+	Ex3: https://media.geeksforgeeks.org/wp-content/uploads/20220127195958/nestedlist1.png
