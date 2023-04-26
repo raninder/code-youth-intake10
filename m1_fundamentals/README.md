@@ -29,3 +29,18 @@
 	Ex1: https://ilyabirman.net/meanwhile/pictures/three-level-headings@2x.png (https://ilyabirman.net/wireless-dj/help/)
 	Ex2: https://miro.medium.com/v2/resize:fit:1400/1*CQtt0HJ7858Y44OUDoxD5A.jpeg
 	Ex3: https://media.geeksforgeeks.org/wp-content/uploads/20220127195958/nestedlist1.png
+
+	26/04/2023
+	- tags and attributes
+	<h1></h1>
+	<p></p>
+	<br>
+	<ol type="a">
+
+	- img tag with sr, height and width attributes
+	- Hyperlinking - lin king to an external or internal webpage/file
+	<a href="url">
+
+
+	Ex1: Introduction/Contribution
+	Ex2: Different items in a row
