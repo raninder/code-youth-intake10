@@ -37,10 +37,17 @@
 	<br>
 	<ol type="a">
 
-	- img tag with sr, height and width attributes
-	- Hyperlinking - lin king to an external or internal webpage/file
-	<a href="url">
-
+	- img tag with src, height and width attributes
+	- Hyperlinking - linking to an external or internal webpage/file
+				<a href="url">
+  - linking within a file using id
+	- using image as a hyperlink
+	- inline and block elements
+				inline elements- appear in a row by default   img, a
+				block elements- appear on a new line  h1, p,li
 
 	Ex1: Introduction/Contribution
-	Ex2: Different items in a row
+	Ex2: Different image items in a row
+	Ex3: linking to different files in m1_fundamentals
+	Ex4: Hypelinking one news
+	Ex5: clicking on one small product image,opens a new file with bigger image and some description of the product
