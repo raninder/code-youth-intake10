@@ -51,3 +51,11 @@
 	Ex3: linking to different files in m1_fundamentals
 	Ex4: Hypelinking one news
 	Ex5: clicking on one small product image,opens a new file with bigger image and some description of the product
+
+	27/04/2023
+	- setting inline style: colors, background-color
+	- Form fields
+	Ex1: https://www.w3.org/wiki/images/0/01/Figure30.png
+	Ex2: https://colorlib.com/wp/wp-content/uploads/sites/2/free-html5-and-css3-login-forms.jpg
+	font awesome icons: https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+											fontawesome.com
