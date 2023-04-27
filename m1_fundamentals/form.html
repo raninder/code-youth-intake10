@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+		<label for="uname">Name:</label>
+		<input type="text" name="name" id="uname" size="30" placeholder="Bob" maxlength="20" required/>
+		<br><br>
+
+		<!-- form.name.value -->
+		<label for="password">Password:</label>
+		<input type="password" name="passowrd" id="password" />
+		<br><br>
+
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" />
+		<br><br>
+
+		<label for="dob">Date of Birth:</label>
+		<input type="date" name="dob" id="dob" />
+		<br><br>
+
+		<label for="comments">Enter your comments:</label><br>
+		<textarea name="comments" id="comments" rows="5" cols="15">comments</textarea>
+		<br><br>
+
+		<label for="role">Specify your role:</label>
+		<input type="radio" name="role" id="role" value="admin" checked> Admin</input> 
+		<input type="radio" name="role" id="role" value="engineer"> Engineer</input> 
+		<br><br>
+
+		<label for="hobby">Hobbies:</label>
+		<input type="checkbox" name="hobby1" id="hobby" value="dance" checked>Dancing</input>
+		<input type="checkbox" name="hobby2" id="hobby" value="music">Music</input>
+		<input type="checkbox" name="hobby3" id="hobby" value="read">Reading</input>
+		<br><br>
+		
+		<label for="hobby">Hobbies:</label>
+		<select name="lang" id="language" >
+			<option value="eng">English</option> 
+			<option value="fr">French</option>
+			<option value="engfr">Both English and French</option>
+			<option value="nolang" selected>Neither English nor French</option>
+		</select>
+		<br><br>
+
+		<label for="file">Upload a file:</label>
+		<input type="file" name="file" id="file" accept=".pdf,.docx,.jpeg" />
+		<br>
+		<input type="submit" value="Register" />
+		<input type="reset" value="Reset" />
+		<input type="button" value="Clickme" onclick="alert('thanks')"/>
+	</fieldset>
+	</form>
+</body>
+</html>
