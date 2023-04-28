@@ -59,3 +59,12 @@
 	Ex2: https://colorlib.com/wp/wp-content/uploads/sites/2/free-html5-and-css3-login-forms.jpg
 	font awesome icons: https://www.w3schools.com/icons/fontawesome_icons_intro.asp
 											fontawesome.com
+
+
+	28/04/2023
+	- Head section: meta, link, script, base tags
+	- Tables - tr, td, cellspacing, cellpadding, rowspan, colspan
+
+	Ex1: https://www.programiz.com/sites/tutorial2program/files/html-table-colspan.png
+	Ex2: https://www.programmingempire.com/wp-content/uploads/2022/12/image-2-1024x522.png
+	Ex3: https://media.geeksforgeeks.org/wp-content/uploads/20200815213442/timetableimage.JPG
