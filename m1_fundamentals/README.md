@@ -64,6 +64,7 @@
 	28/04/2023
 	- Head section: meta, link, script, base tags
 	- Tables - tr, td, cellspacing, cellpadding, rowspan, colspan
+	- iframes- inline frames to embed any web document, video, google maps in your webpage
 
 	Ex1: https://www.programiz.com/sites/tutorial2program/files/html-table-colspan.png
 	Ex2: https://www.programmingempire.com/wp-content/uploads/2022/12/image-2-1024x522.png
