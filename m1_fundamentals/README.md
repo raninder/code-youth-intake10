@@ -89,6 +89,8 @@
 1. using tag name- p{}
 2. using id - #idname{}   its unique and applies to one element
 3. using class-  .classname{}  , used for applying same style to multiple elements
+4. grouping tags - e.g. h1,h2,p{}
+5. selecting tag with a class - e.g. p.classname{}
 
 Ex2: Make a List of fruits with color of each list item will be that of fruit. use class, id and tag as a selector
 1. Apples
