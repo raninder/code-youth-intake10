@@ -100,7 +100,7 @@ Ex2: Make a List of fruits with color of each list item will be that of fruit. u
 5. Strawberry
 6. Banana
 
-do this exercises setting: colors, background colors, font size,family,style using classes, ids,tags selectors 
+Do following exercises, setting properties: colors, background colors, font size,family,style using classes, ids,tags selectors 
 Ex3: https://img.teleflora.com/images/o_0/l_backgrounds:202002-DOTD_640Mobile-a,pg_1/w_640,cs_no_cmyk,c_pad,g_south/f_auto,q_auto:eco,e_sharpen:200/backgrounds/202002-DOTD_640Mobile-a/flowers
 
 Ex4: https://templatemo.com/tm-076-flower-shop
