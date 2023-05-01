@@ -45,6 +45,7 @@
 	- inline and block elements
 				inline elements- appear in a row by default   img, a
 				block elements- appear on a new line  h1, p,li
+				
 
 	Ex1: Introduction/Contribution
 	Ex2: Different image items in a row
@@ -65,7 +66,8 @@
 	- Head section: meta, link, script, base tags
 	- Tables - tr, td, cellspacing, cellpadding, rowspan, colspan
 	- iframes- inline frames to embed any web document, video, google maps in your webpage
+	- media files in webpage
 
 	Ex1: https://www.programiz.com/sites/tutorial2program/files/html-table-colspan.png
 	Ex2: https://www.programmingempire.com/wp-content/uploads/2022/12/image-2-1024x522.png
-	Ex3: https://media.geeksforgeeks.org/wp-content/uploads/20200815213442/timetableimage.JPG
+	Ex3: https://samplelib.com/sample-mp3.html
