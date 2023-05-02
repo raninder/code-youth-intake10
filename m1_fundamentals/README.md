@@ -44,7 +44,7 @@
 	- using image as a hyperlink
 	- inline and block elements
 				inline elements- appear in a row by default   img, a
-				block elements- appear on a new line  h1, p,li
+				block level elements- appear on a new line  h1, p,li,div
 				
 
 	Ex1: Introduction/Contribution
@@ -105,3 +105,38 @@ Ex3: https://img.teleflora.com/images/o_0/l_backgrounds:202002-DOTD_640Mobile-a,
 
 Ex4: https://templatemo.com/tm-076-flower-shop
 Ex5: https://www.amazon.ca/GRACE-KARIN-Pullover-Sweaters-Sweater/dp/B09H2T21GH/ref=sr_1_3?crid=23FW4K4G47OZJ&keywords=tops%2Bwomen&qid=1682519802&sprefix=top%2Caps%2C282&sr=8-3&th=1
+
+
+2/05/2023
+- universal selector - property applies to all elements on a webpage
+*{
+	color:white;
+	background-color:pink;
+	
+}
+
+- descendant/children/grandchildren
+
+- div h1{prop1:value;}
+   -- h1 which is child/grandchild(descendant) of div
+- div>h1{prop1:value;}
+	-- h1 is direct child of div	
+- Descendant Selector	- div p{}	- Used to call all p elements of div, i.e, children, grand children and so on.
+- Child Selector-	div > p{}	- Used to call only child p elements of div, not grand and great grand.
+
+- setting background image
+		body{
+		background: url('') 
+		background-repeat: no-repeat/repeat-x/repeat-y
+		background-size: cover
+		}
+- border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. 
+*{
+	box-sizing:border-box;
+}
+- float : places an element on the left or right side of its container
+ div{
+	float:left;
+}
+Ex1: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7dsQrPrexJrVy6boXUwq8Q.png
+Ex2: https://doc.qt.io/qt-6/images/simplebrowser.png		
