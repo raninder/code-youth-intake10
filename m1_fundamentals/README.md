@@ -86,7 +86,7 @@
 <!-- <blockquote></blockquote> or <p>-->
 
 - selectors
-1. using tag name- p{}
+1. using tag name- p{}   p{color:ddfsfsdfd;back}
 2. using id - #idname{}   its unique and applies to one element
 3. using class-  .classname{}  , used for applying same style to multiple elements
 4. grouping tags - e.g. h1,h2,p{}
@@ -143,3 +143,20 @@ Ex5: https://www.amazon.ca/GRACE-KARIN-Pullover-Sweaters-Sweater/dp/B09H2T21GH/r
 }
 Ex1: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7dsQrPrexJrVy6boXUwq8Q.png
 Ex2: https://doc.qt.io/qt-6/images/simplebrowser.png		
+
+03/05/2023
+
+
+ # div and span
+ - div is a block level element and used to style/group elements
+ - span is inline elements and used to style part of a sentence
+ # pseudo selectors
+		a:link,a:visited, a:hover,a:active, div:hover
+
+ # display
+ - inline, block, inline-block
+
+ Ex1: Navigation bar for w3schools.com
+ Ex2: https://www.crio.do/blog/content/images/2022/02/HTML-Project---Online-Code-Editor--JQuery.png
+ 
+
