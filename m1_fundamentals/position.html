@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			height:1000px;
+		}
+		div{
+			position:relative;
+			border:1px solid;
+			left:10px;
+			top:20px;
+		}
+		.static{
+			position:static;
+			left:30px;
+			top:30px;
+		}
+		.relative{
+			position:relative;
+			left:30px;
+			top:10px;
+		}
+		.absolute{
+			position:absolute;
+			left:30px;
+			top:10px;
+		}
+		.fixed{
+			position:fixed;
+			right:50px;
+			bottom:40px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<p>Paragraph</p>
+	<p class="static">Static paragraph</p>
+	<p class="relative">Relative Pargraph</p>
+	<p class="absolute">Absolute paragraph</p>
+	<p class="fixed">Fixed paragraph</p>
+</div>
+</body>
+</html>
