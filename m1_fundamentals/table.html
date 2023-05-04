@@ -5,9 +5,25 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<style>
+		table,th,td{
+			border-bottom:1px solid;
+			border-collapse: collapse;
+		}
+		th,td{
+			padding:5px;
+			text-align:right;
+		}
+		th{
+			background-color: lightskyblue;
+		}
+		tr:nth-child(odd){
+			background-color: lightslategrey;
+		}
+	</style>
 </head>
 <body>
-	<table border="1" cellpadding="10" cellspacing="0">
+	<table>
 		<!-- <caption>Employee Database</caption> -->
 		<tr><td colspan="4">Employee database</td></tr>
 		<tr>
