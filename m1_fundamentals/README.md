@@ -160,4 +160,14 @@ Ex2: https://doc.qt.io/qt-6/images/simplebrowser.png
  Ex2: https://www.crio.do/blog/content/images/2022/02/HTML-Project---Online-Code-Editor--JQuery.png
  
 
+4/05/2023
 # position
+- static, absolute, relative, fixed
+
+# lists and table styling
+
+# z-index - decides order in which elements will be stacked-what in front and what behind
+
+Ex1: create 2-3 news from cp24.com
+Ex2: create google.com homepage
+Ex3: http://web.mit.edu/6.813/www/sp16/labs/lab1-html-css/ex1-example.png
