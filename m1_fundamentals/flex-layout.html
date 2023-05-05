@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			height:100%;
+		}
+		body{
+			display:flex;
+			flex-direction: column;
+		}
+		ul{
+			display:flex;
+			justify-content: center;
+		}
+		li{
+			margin:10px;
+			list-style-type: none;
+		}
+		header,footer{
+			background-color:burlywood;
+			height:100px;
+			border:1px solid;
+		}
+		section{
+			display:flex;
+		}
+		aside{
+			background-color: gray;
+			/* flex-basis: 500px; */
+			width:30%;
+		}
+		main{
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			flex-basis: 500px;
+			width:70%;
+		}
+		div{
+			height:40px;
+			width:50px;
+			margin:20px;
+			padding:5px;
+			border:1px solid;
+		}
+		
+	</style>
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="">Link</a></li>
+			<li><a href="">Link</a></li>
+			<li><a href="">Link</a></li>
+		</ul>
+	</header>
+	<section>
+		<aside>Aside</aside>
+		<main>
+		<div>Box1</div>
+		<div>Box2</div>
+		</main>
+</section>
+	<footer>Footer</footer>
+</body>
+</html>
