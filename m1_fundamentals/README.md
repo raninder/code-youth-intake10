@@ -171,3 +171,12 @@ Ex2: https://doc.qt.io/qt-6/images/simplebrowser.png
 Ex1: create 2-3 news from cp24.com
 Ex2: create google.com homepage
 Ex3: http://web.mit.edu/6.813/www/sp16/labs/lab1-html-css/ex1-example.png
+
+05/05/2023
+- flexbox model
+Resources:
+1. https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/
+2. flex game:  https://flexboxfroggy.com/
+3. http://snapeuh.github.io/flexbox-presentation/
+4. One page webiste using flexbox: https://medium.com/swlh/how-i-use-flexbox-to-create-a-one-page-website-81db78e61738
+5. One page webiste using flexbox and grid: https://medium.com/swlh/how-i-use-css-grid-and-flexbox-to-create-a-one-page-website-262aeea3592a
