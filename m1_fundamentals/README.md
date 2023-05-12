@@ -180,3 +180,6 @@ Resources:
 3. http://snapeuh.github.io/flexbox-presentation/
 4. One page webiste using flexbox: https://medium.com/swlh/how-i-use-flexbox-to-create-a-one-page-website-81db78e61738
 5. One page webiste using flexbox and grid: https://medium.com/swlh/how-i-use-css-grid-and-flexbox-to-create-a-one-page-website-262aeea3592a
+
+
+css review: https://web.stanford.edu/group/ttsclasses/css/css-presentation.ppt
