@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		let a=10, b= 5, c= 30, d = 3,res;
+		//arithmetic operators
+			res = a+b;
+			console.log("sum: "+res);
+			res = c-b;
+			console.log("difference: "+res);
+			res= a*c;
+			console.log("product: "+res);
+			res=  c/b;
+			console.log("division: "+res);
+			res = a%d;
+			console.log("remainder: "+res);
+			d++;
+			console.log("increment: "+d);  //4
+			c--;
+			console.log("decrement: "+c); //29
+			res = b ** 4;  //5x5x5x5
+			console.log("exponentiation: "+res);
+
+			//assignment operators
+			let x = 12;
+			
+			x+=4; //x = x+4;
+			x*=5;  //x=x*5
+			x/=2;
+
+			//comnparison operator: output true/false
+			let y = '20', z = '20', p=5;
+			console.log("y equals z", y==z);  //equality  false   comapring values
+			console.log("y not equals z", y!=z);
+			console.log("y strictly equals z", y===z);  //strict equality operator   compare values and datatype
+			console.log("p greater than z", p>z);
+			console.log("logical AND", p>5 && p<10);  //true if both conditions are true
+			// AND  
+			// true true  -- true
+			// true  false --- false
+			// false true -- false
+			// false false --  false
+
+			console.log("logical OR", p>5 || p<10);  //true if any of conditions is true
+			//OR 
+			// true true  -- true
+			// true  false --- true
+			// false true -- true
+			// false false --  false
+
+			console.log("logical NOT", !(p>10));  //opposite of condition specified
+
+  // 10 & 4         2^4  2^3 2^2 2^1  2^0  00001010
+	// 																			00000100	
+
+	//String operators
+	console.log(y+z);  // '20'  20   2020
+		console.log(typeof y);
+	</script>
+</body>
+</html>
