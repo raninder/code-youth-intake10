@@ -10,19 +10,19 @@
 	<script>
 		let a=10, b= 5, c= 30, d = 3,res;
 		//arithmetic operators
-			res = a+b;
-			console.log("sum: "+res);
-			res = c-b;
-			console.log("difference: "+res);
-			res= a*c;
-			console.log("product: "+res);
-			res=  c/b;
-			console.log("division: "+res);
+			let sum = a+b;
+			console.log("sum: "+sum);
+			let sub=c-b;
+			console.log("difference: "+sub);
+			let prod = a*c;
+			console.log("product: "+prod);
+			div=  c/b;
+			console.log("division: "+div);
 			res = a%d;
 			console.log("remainder: "+res);
-			d++;
+			d++;  // d=d+1;
 			console.log("increment: "+d);  //4
-			c--;
+			c--;    // c=c-1
 			console.log("decrement: "+c); //29
 			res = b ** 4;  //5x5x5x5
 			console.log("exponentiation: "+res);
@@ -34,12 +34,14 @@
 			x*=5;  //x=x*5
 			x/=2;
 
-			//comnparison operator: output true/false
+			//comparison operator: output true/false
 			let y = '20', z = '20', p=5;
 			console.log("y equals z", y==z);  //equality  false   comapring values
 			console.log("y not equals z", y!=z);
 			console.log("y strictly equals z", y===z);  //strict equality operator   compare values and datatype
 			console.log("p greater than z", p>z);
+
+			//logical operators
 			console.log("logical AND", p>5 && p<10);  //true if both conditions are true
 			// AND  
 			// true true  -- true
