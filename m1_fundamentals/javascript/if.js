@@ -6,6 +6,21 @@
 	//code to be executed if condition is false
 // }
 
+// multiple if-else
+// if(condition){
+// 	//code if true
+// }
+// else if(condition){
+// 	//code if true
+// }
+// else if(condition){
+// 	//code if true
+// }
+// ...if...
+// else{
+// 	//if all conditions are false
+// }
+
 let num=1;
 if(num>2){
 	console.log("number is greater than 2");
