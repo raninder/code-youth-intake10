@@ -32,3 +32,15 @@
  
  temp 0-10
  temp>=0 && temp<=10
+
+ 18 May 2023
+ - Loops- repetitive task
+	- for, while, do-while
+
+	for(initilization;condition;updation)
+	for(i=1;i<=10;i++){
+		//body
+	}
+	//statement
+
+	Ex1: print first 20 even natural numbers
