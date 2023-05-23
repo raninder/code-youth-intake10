@@ -10,3 +10,4 @@ console.log("average",sum/5);
 // sum = 2+7+6+78+23
 
 // "2"+"3"   2+3
+
