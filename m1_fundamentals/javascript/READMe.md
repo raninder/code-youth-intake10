@@ -44,3 +44,30 @@
 	//statement
 
 	Ex1: print first 20 even natural numbers
+
+	19 May 2023
+	- break, continue
+	- switch
+	- functions : in-built, user-defined
+
+
+	23 MAy 2023
+	- functions- group of statements to perform a particular task, can be called any no. 	of times
+	- two parts- function declaration and function call
+
+	// function declaration
+
+	function show(parameter1, parameter2,......,parameterN){
+		//function body
+	}
+
+// function call
+ show(argument1,argument2,...,argumentN);
+
+ https://javascript.info/function-basics
+
+ Ex1: find addition of four numbers using functions.
+ Ex2: check if a given number is positive or not using the function.
+ Ex3: a function that returns the cube of a number
+ Ex4: a function to find the area of a given Rectangle
+ Ex5:  a function to generate a random number
