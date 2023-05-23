@@ -5,3 +5,5 @@ if(day==1){
 else if(day==2){
 	console.log("Tuesday")
 }
+
+
