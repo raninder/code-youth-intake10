@@ -71,3 +71,24 @@
  Ex3: a function that returns the cube of a number
  Ex4: a function to find the area of a given Rectangle
  Ex5:  a function to generate a random number
+
+
+
+add(a,b){
+	return a+b;
+}
+subtract(a,b)
+division(a,b)
+multiply(a,b)
+
+3x5+6/2x6+3-11x7
+
+res = multiply(3,5)
+add(res,6)
+
+24/05/2023
+- Arrays
+
+Ex1: Reverse all array elements
+2. Print all negative elements
+3. Print square of each element of array
