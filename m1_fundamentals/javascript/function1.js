@@ -11,8 +11,8 @@ function display(){
 	let a=5;
 	console.log("Hello Bob",a);
 }
-console.log(a);
-display();
+console.log(a);//error
+display(); //Hello Bob 5
 display();
 
 
