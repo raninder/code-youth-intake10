@@ -30,8 +30,14 @@ function checkEven(num){
 	}
 	else {
 		return false;
+		// let a=10;
+		// console.log(a);
 	}
 }
 
 let number = check(23);
 console.log(number)
+
+
+//area of a square
+area(4) //16
