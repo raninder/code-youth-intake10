@@ -3,7 +3,7 @@ let maths=20,science=25,english=30;
 //array- store mutliple data in one variable
 let score = [2,24,34,45];
 console.log(score);
-console.log("no. of elements",score.length)
+console.log("no. of elements",score.length) //4
 
 let colors=['white','black','blue','green','yellow'];
 console.log(colors);
