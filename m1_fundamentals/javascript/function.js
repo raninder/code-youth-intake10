@@ -32,4 +32,6 @@ square(5);
 square(34);
 square(56);
 
+//arrow functions
+const square = (num) => num*num;
 
