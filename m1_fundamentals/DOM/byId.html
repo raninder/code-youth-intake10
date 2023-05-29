@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		#head {
+			color:blue;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="head">DOM Introduction</h1>
+	<p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi deserunt accusamus voluptate laboriosam officia autem quis, sunt eligendi odio iste nemo, repellat esse provident ad impedit odit ullam aspernatur? Nulla!</p>
+  <button onclick='change()'>Change</button>
+<script>
+	function change(){
+	const paragraph  = document.getElementById('para1');
+	// console.log(paragraph);
+	paragraph.innerText="Paragraph1";  //paragraph.innerHTML
+	paragraph.style.color='white';
+	paragraph.style.margin='20px';
+	paragraph.style.backgroundColor='black';
+	}
+</script>
+</body>
+</html>
+
+<!-- //create 1 heading and 2 paragraphs. using JS DOM, chnage color of one paragraph to blue and sec to green -->
