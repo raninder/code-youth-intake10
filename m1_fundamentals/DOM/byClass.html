@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Heading1</h1>
+	<p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem harum, similique fugiat alias molestiae expedita impedit vitae consectetur illum cum, eligendi ea vero perferendis! Quam magnam aut maxime odit amet.</p>
+  <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint eveniet accusamus soluta dicta deleniti culpa, modi id ipsam? Perferendis placeat rem, ex illum repellendus esse vitae pariatur laboriosam quae quis!</p>
+  <button onclick="change()">Click</button>
+	<script>
+		function change(){
+			const paras = document.getElementsByClassName('para');
+			console.log(paras);
+			// paras.style.color='green';
+			paras[0].style.color='red';
+			paras[1].style.color='red';
+			// for(let i=0;i<paras.length;i++){
+			// 	paras[i].style.color='red';
+			// }
+		}
+	</script>
+</body>
+</html>
+1. Apples
+2. Banana
+3. Strawberry
+4. Pomegranate
+5. Grapes
+6. Kiwi
+7. Orange
