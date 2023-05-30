@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.props{
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: larger;
+			color:blue;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="red">Heading</h1>
+	<p>First Paragraph</p>
+	<p id="p2">Second paragarph</p>
+	<p class="red">Third paragraph</p>
+	<p class="red">Fourth paragraph</p>
+	<button onclick = "select()">Change</button>
+	<script>
+		function select(){
+			// alert('hi');
+			//querySelector selects only one element,first elemnt of the given type
+			// const p1=document.querySelector("p");
+			const p1=document.querySelector("#p2");
+			p1.setAttribute("class","props");
+			// p1.style.fontFamily='Arial';
+			// p1.style.fontSize="20px";
+			// p1.style.color="blue";
+			const red= document.querySelector("p.red");
+			red.style.color="red";
+		}
+	</script>
+</body>
+</html>
+
