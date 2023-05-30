@@ -17,5 +17,6 @@
 - select tag("h1"), id("#h1"), class(".h1")
 - return kind of array
 
-Ex: 
-
+Ex1: highlighting keywords
+Ex2: create 3 hyperlinks, append to list
+Ex3: create a table with name and address,2-3 rows data
