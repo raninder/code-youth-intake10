@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<p><span>Food </span>is one of the basic necessities of life. <span>Food </span>contains nutrients—substances essential for the growth, repair, and maintenance of body tissues and for the regulation of vital processes. <span>Nutrients</span> provide the energy our bodies need to function.</p>
+
+	<p>	The energy in <span>food </span>is measured in units called calories. Age, sex, weight, height, and level of activity determine the number of calories a person needs each day. Depending on age, sex, and activity level, the recommended daily caloric intake for a child aged 11 to 14 can range anywhere from 1,600 to 2,600 calories per day, with sedentary girls needing the fewest calories and active boys needing the most. For adults, this can range from 1,800 to about 3,000.</p>
+<button onclick="highlight()">Highlight</button>
+<script>
+	function highlight(){
+	const span = document.querySelectorAll("span");
+	for(let i=0;i<span.length;i++){
+		span[i].style.backgroundColor="yellow";
+		span[i].style.fontWeight="bold";
+	}
+}
+</script>
+</body>
+</html>
