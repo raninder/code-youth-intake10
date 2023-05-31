@@ -8,9 +8,10 @@
 </head>
 <body>
 	<p>First Paragraph</p>
-	<p>Second Paragraph</p>
+	<p id="p2">Second Paragraph</p>
 	<p>Third Paragraph</p>
 	<p>Fourth Paragraph</p>
+	<p>New Paragraph</p>
 	<button onclick = "create()">Add</button>
 	<button onclick = "remove()">Remove</button>
 	<script>
@@ -30,6 +31,8 @@
 		}
 		function remove(){
 			document.querySelector("img").remove();
+			const p2=document.getElementById('p2');
+			p2.remove();
 		}
 	</script>
 </body>

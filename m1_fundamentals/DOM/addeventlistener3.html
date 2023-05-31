@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		button{
+			height:60px;
+			width:120px;
+			background-color: red;
+			color:white;
+		}
+	</style>
+</head>
+<body>
+	<button>Mouse Over Me</button> 
+	<script>
+		const button = document.querySelector("button");
+		button.addEventListener('click',function(){
+			button.innerHTML="Thank you";
+		})
+		button.addEventListener('click',fn);
+		function fn(){
+			alert('hi');
+		}
+		button.addEventListener('mouseover',function(){
+			button.style.padding="10px";
+			button.style.fontSize="20px"
+		})
+		
+	</script>
+</body>
+</html>

@@ -7,8 +7,14 @@
 	<title>Document</title>
 </head>
 <body>
-	<h1>Heading</h1>
+	<h1 onclick="change(this)">Heading</h1>
 	<p> Paragraph1</p>
 	<button>click</button>
+	<script>
+		function change(h1){
+				h1.innerHTML="heading1";
+				h1.style.color="red";
+		}
+	</script>
 </body>
 </html>
