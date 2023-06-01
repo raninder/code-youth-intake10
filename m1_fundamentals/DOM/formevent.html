@@ -1,0 +1,27 @@
+<!-- <input>
+<p></p>
+<script>
+
+	get value of input field and display in p tag on event onchange() in input field
+</script> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" id="name" onchange="get()"/>
+<p></p>
+	<script>
+		function get(){
+		const name = document.getElementById('name').value;
+		const p = document.querySelector("p");
+		p.innerHTML=name;
+		}
+	</script>
+</body>
+</html>
