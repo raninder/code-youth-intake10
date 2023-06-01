@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>
+    THE TITLE OF YOUR WEBPAGE
+  </h1>
+  <div id="container"></div>
+	<script>
+		const p= document.createElement('p');
+		p.innerHTML="Hey I’m red!";
+		p.style.color="red";
+		let container = document.getElementById('container');
+		container.append(p);
+
+		const h3= document.createElement("h3");
+		h3.innerHTML='I’m a blue h3!';
+		h3.style.color='blue';
+		container.append(h3);
+		
+		const div = document.createElement('div');
+		div.style.backgroundColor='lightpink';
+		div.style.border="1px solid";
+		container.append(div);
+
+		const h1=  document.createElement('h1');
+		h1.innerHTML='I’m in a div';
+		const p1 = document.createElement('p');
+		p1.innerHTML='ME TOO!';
+		div.append(h1);
+		div.append(p1);
+
+	</script>
+</body>
+
+</html>
