@@ -1,5 +1,6 @@
 // const students = ['budry','ahmed','comnnor'];
-const students = [
+const students = {
+	data:[
 	{
 		name:'Budry',
 		city:'Toronto'
@@ -20,8 +21,9 @@ const students = [
 		name:'Ahmed',
 		city:'Toronto'
 	}
-];
+]
+};
 
-for(let i=0;i<students.length;i++){
-	console.log(students[i].name, students[i].city);
+for(let i=0;i<students.data.length;i++){
+	console.log(students.data[i].name, students[i].city);
 }
