@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		table,td{
+			border:1px solid;
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+	<!-- <table></table> -->
+	<script>
+		const url = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita%'
+    fetch(url)
+		.then((res)=>res.json())
+		.then((data)=>{
+			console.log("data",data.drinks);
+			const drinks = data.drinks;
+			// const table = document.createElement('table');
+			// let temp = '<table>';
+				let temp='';
+			for(let i=0;i<drinks.length;i++){
+				 temp = temp+ `<tr><td>${drinks[i].strDrink}</td><td>${drinks[i].strCategory}</td></tr>`;
+			}
+			temp+='</table>'
+			// table.innerHTML=temp;
+			document.body.append(table);
+		}
+		)
+		.catch((err)=>console.log(err))	
+	</script>
+</body>
+</html>
